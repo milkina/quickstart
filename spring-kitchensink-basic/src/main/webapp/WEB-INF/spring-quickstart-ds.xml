@@ -26,11 +26,11 @@
     <datasource jndi-name="java:jboss/datasources/MySQLDS"
                 pool-name="kitchensink-quickstart" enabled="true"
                 use-java-context="true">
-        <!--<connection-url>jdbc:mysql://10.11.3.110:3306/jpa</connection-url>
+        <!--<connection-url>jdbc:mysql://127.0.0.1:3307/jpa</connection-url>
         <driver>mysql</driver>
         <security>
             <user-name>root</user-name>
-            <password>RHAslv69365</password>
+            <password>admin</password>
         </security>-->
 
         <connection-url>jdbc:mysql://10.17.3.23:3306/jpa</connection-url>
@@ -39,13 +39,6 @@
             <user-name>root</user-name>
             <password>CTPaiy35727</password>
         </security>
-
-        <!--<connection-url>jdbc:mysql://node6839-env-2194834.node.cloudlets.zone/jpa</connection-url>
-        <driver>mysql</driver>
-        <security>
-            <user-name>root</user-name>
-            <password>CTPaiy35727</password>
-        </security>-->
     </datasource>
 </datasources>
 

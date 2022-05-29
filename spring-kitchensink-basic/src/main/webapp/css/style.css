@@ -1124,3 +1124,6 @@ input[type="checkbox"].test-checkbox:checked+label:after{
     vertical-align: middle;
     padding-right: 5px;
 }
+.patreon-class{
+    margin-top:5px
+}
